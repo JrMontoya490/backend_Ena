@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comidas",
+  "info": {
+    "singularName": "comida",
+    "pluralName": "comidas",
+    "displayName": "comida"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "blocks"
+    },
+    "precio": {
+      "type": "decimal"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "disponible": {
+      "type": "boolean"
+    }
+  }
+}
