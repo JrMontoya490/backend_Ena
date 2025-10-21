@@ -1,3 +1,5 @@
+// Path: ./config/plugins.ts
+
 export default ({ env }) => ({
   upload: {
     config: {
